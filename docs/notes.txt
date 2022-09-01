@@ -1,0 +1,9 @@
+general purpose registers - ax, bx, cx, dx
+
+commands 
+
+// compile
+nasm -f bin <the-code>.asm -o <the-bin>.bin
+
+// run
+qemu-system-x86_64 <the-binary>.bin

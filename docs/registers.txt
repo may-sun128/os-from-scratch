@@ -1,0 +1,27 @@
+Four General Purpose Registers 
+	- AX, BX, CX, DX
+	- Each of which consists of 8 low bits and high bits
+		- AH AL, BH BL, etc 
+		- these registers can be used to hold one-byte quantities
+		- N.B.: changing the value of AX will change AH/AL and vice versa 
+
+Two Sixteen-Bit Index Registers 
+	- SI, DI 
+	- general purpose, by convention used as pointers 
+	- (pnuemonic: SI(ndex) DI(ndex) (index as in pointer)) 
+	- cannot be decomposed into High and Low one-byte registers 
+
+Two Sixteen Bit Special Registers 
+	- BP: Base Pointer 
+	- SP: Stack Pointer 
+
+Four Sixteen Bit Segment Registers 
+	- CD: Code Seg
+	- DS: Data Seg
+	- SS: Stack Seg 
+	- ES: Extra Seg
+
+Sixteen-Bit Instruction Pointer(IP) Register
+	- points to next instruction to execute 
+
+TODO add flag register 
