@@ -1,5 +1,5 @@
 disk_load: 
-	push dx ; store dx for later 
+	push dx      ; store dx for later 
 	mov ah, 0x02 ; bios read sector function 
 	mov al, dh   ; read dh sectors
 	mov ch, 0x00 ; read cylinder 0 
