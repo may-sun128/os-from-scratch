@@ -7,3 +7,7 @@ nasm -f bin <the-code>.asm -o <the-bin>.bin
 
 // run
 qemu-system-x86_64 <the-binary>.bin
+
+// NASM docs 
+
+https://www.nasm.us/doc/nasmdoc3.html#section-3.5

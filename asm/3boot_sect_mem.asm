@@ -38,9 +38,9 @@ mov ah, 0x0e
 ; a register can't be used as source and destination for the same command 
 
 mov al, "3"
-int 0x10 
+int 0x10 ; 16
 mov bx, the_secret 
-add bx, 0x7c00
+add bx, 0x7c00 ; 31744
 mov al, [bx]
 int 0x10
 
